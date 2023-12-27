@@ -42,14 +42,14 @@
 // }
 
 // 3.
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-int main()
-{
-    int arr[4] = {2, 45, 3, 78};
-    cout << arr[1] << endl;
-    swap(arr[1], arr[2]);
-    cout << arr[1] << endl;
-    return 0;
-}
+// int main()
+// {
+//     int arr[4] = {2, 45, 3, 78};
+//     cout << arr[1] << endl;
+//     swap(arr[1], arr[2]);
+//     cout << arr[1] << endl;
+//     return 0;
+// }
