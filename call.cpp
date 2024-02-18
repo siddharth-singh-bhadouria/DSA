@@ -5,12 +5,19 @@ int main()
 {
     int t;
     cin >> t;
-    vector<int> data, moments;
+    int arr[4];
+    vector<int> moments;
     while (t--)
     {
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < 4; i++)
         {
-            data.pushback()
+            cin >> arr[i];
+        }
+        for (int i = 0;; i++)
+        {
+            int a;
+            cin >> a;
+            data.pushback(a);
         }
     }
     return 0;
