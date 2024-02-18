@@ -1,7 +1,5 @@
 .vscode
-.exe
-.bin
-
-test
-test.bin
-practise
+.cph
+*.exe
+*.bin
+*

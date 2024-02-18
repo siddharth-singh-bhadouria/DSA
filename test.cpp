@@ -52,19 +52,12 @@ using namespace std;
 
 int reverse(int x)
 {
-    int y = abs(x);
+    int y = x;
     long t = 0;
     while (y != 0)
     {
         t = t * 10 + y % 10;
         y = y / 10;
-    }
-
-    if (x != abs(x))
-    {
-        string s = to_string(t);
-        s = '-' + s;
-        t = stol(s);
     }
 
     if (t > INT_MAX || t < INT_MIN)
@@ -79,6 +72,6 @@ int main()
     int x;
     cin >> x;
     int y = reverse(x);
-    cout << y;
+    cout << y << endl;
     return 0;
 }
